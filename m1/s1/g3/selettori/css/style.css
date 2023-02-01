@@ -1,0 +1,23 @@
+#rosso{
+    background-color: red;
+}
+
+
+
+/*conflitti
+
+div => 1
+classi => 10
+id => 100
+inline style => 1000
+*/
+
+
+#conflitti div{
+    background-color: blue;
+}
+
+
+#conflitti .verde{ 
+    background-color: green;
+}

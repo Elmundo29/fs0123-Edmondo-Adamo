@@ -1,0 +1,18 @@
+/*
+body{
+    font-size: 20px;
+}
+*/
+#t1{
+    font-size: 1rem;                 /* 1rem=16px */
+}
+/*con root decido la grandezza di base in px, quindi 1rem=root
+quindi meglio usare rem invece di specifare dei px cosi se bisogna cambiarlo basta 
+cambiare soltato il rem*/
+#parent{
+    font-size: 50px;
+}
+#t3{
+    font-size: 1em;
+}
+/* meglio usare a questo punto rem con root senza parent e em ecc..*/

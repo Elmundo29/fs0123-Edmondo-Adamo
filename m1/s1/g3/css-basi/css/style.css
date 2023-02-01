@@ -1,0 +1,24 @@
+/* 
+Questo è 
+un commento
+Sotto struttura generale di css 
+*/
+
+/*
+selettore{
+    proprietà/regola : valore ;
+}
+*/
+
+div{
+    color: red;
+    background-color:blue;
+}
+
+div span{
+    color: white;
+}
+
+div, span{
+    border: 1px solid black;
+}
