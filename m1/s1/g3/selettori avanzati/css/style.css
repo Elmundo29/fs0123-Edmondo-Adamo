@@ -1,0 +1,24 @@
+section > span{
+    text-decoration:line-through ;
+} /* senza maggiore prende tutto dentro a section mentre con indica solo i figli diretti*/
+
+section + small{
+    font-weight: bold;
+}
+section ~ small{
+    font-weight: bold;
+}
+
+input:checked{  
+    display: none;
+}
+
+#menu{
+    background-color: bisque;
+    height: 0;
+    overflow: hidden;
+}
+
+#toggle:checked + menu{
+    height: 70px;
+}
