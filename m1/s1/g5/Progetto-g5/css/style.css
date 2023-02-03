@@ -1,0 +1,169 @@
+/* Your styles here */
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+img{
+    max-width: 100%;
+}
+
+.header-box{
+    background-color: black;
+    height: 130px;
+}
+
+.logo{
+    text-align: center;
+    padding-top: 30px;
+}
+
+#titolo{
+    text-align: center;
+    font-weight: bold;
+    color: darkcyan;
+    padding-top: 50px;
+    font-size: 40px;
+}
+
+.box-titolo{
+    background-image: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: 450px;
+    height: 300px
+}
+
+.paragrafi{
+    text-align: center;
+    line-height: 25px;
+    padding-top: 15px;;
+}
+
+.button-position{
+    background-color: orangered;
+    width: 100px;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 7px;
+}
+
+.h3-1{
+    text-align: center;
+    padding-top: 50px;
+    color: darkcyan;
+}
+
+.h3-2{
+    text-align: center;
+    padding-top: 30px;
+    color: darkcyan;
+}
+
+.notebook-img{
+    margin-left: 12px;
+    border-radius: 50%;
+    padding-top: 20px;
+}
+
+.epicode-garantisce-box{
+    background-color: orangered;
+    margin-top: 50px;
+    height: 265px;
+}
+
+.h2{
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+    font-size: 30px;
+}
+
+.paragrafo-epicode-garantisce{
+    padding-top: 30px;
+    text-align: center;
+    color: white;
+    line-height: 25px;
+}
+
+.mario-rossi{
+    color: white;
+    padding-top: 30px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.ceo-epicode{
+    text-align: center;
+    padding-top: 10px;
+    color: white;
+}
+
+.il-tuo-pc-box{
+    border: 1px solid rgb(163, 159, 159);
+    margin-top: 60px;
+    width: 400px;
+    margin-left: 20px;
+}
+
+.h3-3{
+    text-align: center;
+    color: darkcyan;
+    padding-top: 20px;
+}
+
+.paragrafi-sotto-h3-3{
+    padding-top: 20px;
+    text-align: center;
+    line-height: 25px;
+    padding-bottom: 30px;
+}
+
+.box-impara-lavora{
+    border: 1px solid rgb(163, 159, 159);
+    margin-top: 40px;
+    width: 400px;
+    margin-left: 20px;
+}
+
+.contattaci-box{
+    background-color: turquoise;
+    margin-top: 60px;
+    padding-bottom: 150px; 
+}
+
+.contattaci{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.telefono{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding-top:  30px; 
+}
+
+.email{
+    text-align: center;
+    padding-top: 10px; 
+}
+
+.indirizzo{
+    text-align: center;
+    padding-top: 10px;
+    color: white;
+}
+
+.linea{
+    color: white;
+    padding-top: 30px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    width: 190px;
+}
