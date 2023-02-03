@@ -167,3 +167,8 @@ img{
     border-right: 0;
     width: 190px;
 }
+
+.copyright{
+    color: white;
+    text-align: center;
+}
