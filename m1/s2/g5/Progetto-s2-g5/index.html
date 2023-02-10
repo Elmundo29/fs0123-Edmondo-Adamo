@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcolatrice in JS</title>
+    <meta name="Progetto-calcolatrice-JS" content="Come creare una semplice calcolatrice in JS">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1 id="titolo">La mia calcolatrice in JS</h1>
+    </header>
+        
+    <main>
+        <div class="display-position">
+            <input type="text" id='display'>
+        </div>
+
+
+                                    <!--EXTRA PER CALCOLATRICE SCIENTIFICA-->
+
+        <div id="tastiera1">  
+
+            <div class="tasti1">
+                <button class="simboli1" data-simbolo="/" onclick="aggiungiTasto1(this)">(-)</button>
+            </div>
+
+            <div class="tasti1">
+                <button class="simboli1" data-simbolo="sin()" onclick="aggiungiTasto1(this)">sin</button>
+            </div>
+            
+            <div class="tasti1">
+                <button class="simboli1" data-simbolo="cos()" onclick="aggiungiTasto1(this)">cos</button>
+            </div>
+
+            <div class="tasti1">
+                <button class="simboli1" data-simbolo="tan()" onclick="aggiungiTasto1(this)">tan</button>
+            </div>
+
+            <div class="tasti1">
+                <button class="simboli1" data-simbolo="√" onclick="radiceQuadrata(this)">√</button>
+            </div>
+
+            <div class="tasti1">
+                <button class="simboli1" data-simbolo="(" onclick="aggiungiTasto1(this)">(</button>
+            </div>
+            
+            <div class="tasti1">
+                <button class="simboli1" data-simbolo=")" onclick="aggiungiTasto1(this)">)</button>
+            </div>
+
+            <div class="tasti1">
+                <button class="simboli1" data-simbolo="M+" onclick="aggiungiTasto1(this)">M+</button>
+            </div>
+        </div>
+
+        
+                                        <!--calcolatrice-->
+
+
+        <div id="tastiera">
+
+            <div class='tasti'> 
+                <button class='simboli' data-simbolo="7" onclick="aggiungiTasto(this)">7</button>
+            </div> 
+            
+            <div class='tasti'>
+                <button class='simboli' data-simbolo="8" onclick="aggiungiTasto(this)">8</button>
+            </div>
+
+            <div class='tasti'>
+                <button class='simboli' data-simbolo="9" onclick="aggiungiTasto(this)">9</button>
+            </div>
+
+            <div class='tasti'>
+                <button class='simboli' data-simbolo="/" onclick="aggiungiTasto(this)">/</button>
+            </div>
+
+            <div class='tasti'>
+                <button class='simboli' data-simbolo="4" onclick="aggiungiTasto(this)">4</button>
+            </div>
+
+            <div class='tasti'>
+                <button class='simboli' data-simbolo="5" onclick="aggiungiTasto(this)">5</button>
+            </div>
+
+            <div class='tasti'>
+                <button class='simboli' data-simbolo="6" onclick="aggiungiTasto(this)">6</button>
+            </div>
+
+            <div class='tasti'>
+                <button class='simboli' data-simbolo="*" onclick="aggiungiTasto(this)">x</button>
+            </div>
+
+            <div class='tasti'>
+                <button class='simboli' data-simbolo="1" onclick="aggiungiTasto(this)">1</button>
+            </div>
+
+            <div class='tasti'>
+                <button class='simboli' data-simbolo="2" onclick="aggiungiTasto(this)">2</button>
+            </div>
+
+            <div class='tasti'>
+                <button class='simboli' data-simbolo="3" onclick="aggiungiTasto(this)">3</button>
+            </div>
+
+            <div class='tasti'>
+                <button class='simboli' data-simbolo="-" onclick="aggiungiTasto(this)">-</button>
+            </div>
+
+            <div class='tasti'>
+                <button class='simboli' data-simbolo="C" onclick="cancella()">C</button>
+            </div>
+
+            <div class='tasti'>
+                <button class='simboli' data-simbolo="0" onclick="aggiungiTasto(this)">0</button>
+            </div>
+
+            <div class='tasti'>
+                <button class='simboli' data-simbolo="." onclick="aggiungiTasto(this)">.</button>
+            </div>
+
+            <div class='tasti'>
+                <button class='simboli' data-simbolo="+" onclick="aggiungiTasto(this)">+</button>
+            </div>
+
+            <div id="tasto-uguale">
+                <button class="uguale" data-simbolo="=" onclick="total()">=</button>
+            </div>
+
+        </div>
+        
+    </main>
+    
+    <aside></aside>
+    
+    <footer></footer>
+    
+    <script src="js/script.js"></script>
+    
+</body>
+</html>

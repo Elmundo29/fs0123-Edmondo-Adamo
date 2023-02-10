@@ -1,0 +1,77 @@
+#titolo{
+    text-align: center;
+}
+
+.display-position{
+    text-align: center;
+    margin-right: 25px;
+    margin-bottom: 5px;
+}
+
+#display{
+    height: 40px;
+    width: 260px;
+    font-size: 30px;
+    color: steelblue;
+    border-color: steelblue;
+}
+
+#tastiera{
+    width: 300px;
+    margin: 0 auto;
+}
+
+.tasti{
+    display: inline-block;
+    height:60px;
+    width: calc(100% / 4 - 1rem);
+    margin: 3px;
+    background-color: darkgray;
+}
+
+.simboli{
+    background-color: darkgray;
+    font-size: 40px;
+    height: 60px;
+    width: 60px;
+    border: none;
+    color: steelblue;
+}
+
+#tasto-uguale{
+    display: inline-block;
+    height: 60px;
+    width: calc(100% / 1 - 2.1rem);
+    margin: 3px;
+    background-color: darkgray;
+}
+
+.uguale{
+    background-color: darkgray;
+    font-size: 30px;
+    color: steelblue;
+    height: 60px;
+    width: 267px;
+    border: none;
+}
+
+#tastiera1{
+    width: 300px;
+    margin: 0 auto;
+}
+.tasti1{
+    display: inline-block;
+    height: 60px;
+    width: calc(100% / 4 - 1rem);
+    margin: 3px;
+    background-color: darkgray;
+}
+
+.simboli1{
+    background-color: darkgray;
+    font-size: 25px;
+    height: 60px;
+    width: 60px;
+    border: none;
+    color: steelblue;
+}
